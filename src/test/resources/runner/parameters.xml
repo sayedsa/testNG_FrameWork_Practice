@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Tek school Data Driven Framework" verbose="3">
+<test name="Login to Hotel Page">
+	<parameter name="userName" value="student@test.com" />
+	<parameter name="password" value="welcome1" />
+		<classes>
+			<class name="tests.HotelLogin" />
+		</classes>
+	</test>
+</suite>
